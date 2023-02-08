@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="/Users/nathansilver/Downloads/17.3_activities 2/01_Positioning_Elements/3_inline_block_elements/solved/css/v2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <nav>
+    <div class="block_element">
+      <a href="https://google.com"><div class="inline-block">About</div></a>
+      <a href="https://google.com"><div class="inline-block">Skills</div></a>
+      <a href="https://google.com"><div class="inline-block">Work</div></a>
+      <a href="https://google.com"><div class="inline-block">Contact</div></a>
+    </div>
+  </nav>
+
+  <section class="wrapper">
+    <div class="left">
+      <img src="images/person.png">
+      <p>Hi i'm a person!</p>
+    </div>
+    <div class="right">
+      <div class="card">
+      </div>
+      <div class="card">
+      </div>
+      <div class="card">
+      </div>
+    </div>
+  </section>
+</body>
+</html>
