@@ -1,4 +1,4 @@
-header img{
+#logo{
     height:80px;
     margin-left:40px;
 }
@@ -7,46 +7,45 @@ body{
     background-size: cover;
     font-family: sans-serif;
     width: 100%;
-    position:relative;
+   
     
 }
 
 .navbar{
     background-color: #395C7F;
-    position:fixed;
     top:0;
     left:0;
     right:0;
     height:80px;
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items:flex-end;
     box-shadow: 0 0 25px black;
-    z-index: 1;
     text-decoration: none;
-    gap:10px;
-   
+    margin-bottom: 20px;
+    margin-top:-10px;
+    margin-left:-10px;
+    
 }
+   
+
 
 
 nav p{
     display: inline-flex;
     text-decoration: none;
-    margin-bottom: 20px;
+    
 }
 nav ul{
     display: inline-flex;
     text-decoration: none;
     list-style-type: none;
-    margin-bottom: 20px;
 
 }
 
 nav li{
-    margin:20px;
-    float:inline-end;
+    padding:20px;
     text-decoration: none;
 }
 .navbar li a{
@@ -60,32 +59,31 @@ nav li{
     color:white;
    
 }
-body, html{
-    height:100%;
-}
-section{
-padding-top: 80px;
-padding-bottom: 80px;
+
+#herosection {
+margin-left: 10%;
+margin-right: 10%;
 
 }
+
 .container{
     
-    height:75%;
-    max-height: 50vh;
+    height:1000px;
     width: 100%;
+    max-width:500px;
     padding: 40px;
-    gap: 20px;
     background-color:#F3EFE7;   
     border: #395C7F;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
-    position: absolute;
+    margin-right:20px;
+    margin-left:20px;
 
 }
 
-.hero_text *{
+.hero_text{
     text-align: center;
     color:black;
     display: flex;
@@ -94,9 +92,10 @@ padding-bottom: 80px;
 }
 .hero-image{
     justify-content: center;
-    width:100%;
-    padding-top: 80px;
-    max-height: 50vh;
+    display: flex;
+
+    margin-top: 20px;
+    max-width:500px;
 }
 button{
     text-align: center;
